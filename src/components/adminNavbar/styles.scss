@@ -1,0 +1,31 @@
+.admin {
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 18px 30px;
+  background: #016BFF;
+  height: 100vh;
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 70px;
+  }
+
+  &__item {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 17px;
+    color: #FFFFFF;
+  }
+
+  & p {
+    position: absolute;
+    bottom: 0;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    color: #FFFFFF;
+  }
+}

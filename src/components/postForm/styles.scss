@@ -1,0 +1,25 @@
+.add-post {
+  background: #FFFFFF;
+  border: 1px solid rgba(51, 51, 51, 0.1);
+  border-radius: 2px;
+  padding: 35px;
+
+  & h3 {
+    margin: 0;
+    margin-bottom: 40px;
+  }
+}
+
+.upload-image {
+  padding: 17px 34px;
+  cursor: pointer;
+  background: #006AFF;
+  border-radius: 3px;
+  color: white;
+}
+
+#file-upload {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
